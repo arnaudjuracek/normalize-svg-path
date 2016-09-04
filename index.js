@@ -99,7 +99,7 @@ function normalize(path){
 }
 
 function line(x1, y1, x2, y2){
-  return ['C', x1, y1, x2, y2, x2, y2]
+  return ['L', x1, y1, x2, y2]
 }
 
 function quadratic(x1, y1, cx, cy, x2, y2){
